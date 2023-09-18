@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@media (max-width: 1440px){
+/* style */
+
+body {
+   background-color: #500050;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: .6;
+}
+
+.sidebar {
+  background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+  padding: 10px;
+  position: relative;
+  z-index: 9999px;
+  padding-bottom: 70px;
+  border: 2px solid white;
+  border-radius: 1rem 001rem;
+  margin: 10px;
+}
+
+.sidebar a {
+width: 60px;
+height: 100%;
+background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+padding: 20px;
+padding-right: 65px;
+box-sizing: border-box;
+color: #fff; overflow: hidden;
+border-radius: 1rem 001rem;
+transition: width .75s ease;
+text-decoration: none;
+display: inline-block;
+border: 2px solid white;
+margin-left: 15px;
+margin-bottom: -55px;
+z-index: 9999px;
+position: relative;
+}
+
+.sidebar a:hover{
+width: 150px;
+}
+
+.kotak h1 {
+  font-weight: bold;
+  font-family: arial;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  z-index: 9999px;
+  color: white;
+  padding: 45px;
+  border: 2px solid white;
+  border-radius: 1rem 001rem;
+  margin: 10px;
+  background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.copyright {
+   background-color: #1f1f1f;
+   padding-top: 130px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   border-top: 2px dashed rgb(230, 198, 198);
+   position: relative;
+   z-index: 9999px;
+   margin-top: 150px;
+}
+
+.copyright .cpr h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: -60px;
+  font-family: Verdana;
+}
+
+.copyright .tentang a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: -100px;
+  padding: 10px;
+  margin-left: 110px;
+  font-size: 22px;
+  transition: .8s ease;
+}
+
+.copyright .tentang a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.copyright .pjsn h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  position: relative;
+  top: -100px;
+  padding: 30px;
+ padding-left: 30px;
+}
+}
+
+@media (min-width: 360px){
+  /*sidebar*/
+  .sidebar {
+  background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+  padding: 5px;
+  position: relative;
+  z-index: 9999px;
+  padding-bottom: 45px;
+  border: 1px solid white;
+  border-radius: 1rem 001rem;
+  margin: 10px;
+}
+
+.sidebar a {
+width: 40px;
+height: 100%;
+background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+padding: 15px;
+padding-right: 70px;
+box-sizing: border-box;
+color: #fff; overflow: hidden;
+border-radius: 1rem 001rem;
+transition: width .75s ease;
+text-decoration: none;
+display: inline-block;
+border: 1px solid white;
+margin-left: 15px;
+margin-bottom: -38px;
+z-index: 9999px;
+position: relative;
+}
+
+.sidebar a:hover{
+width: 130px;
+}
+
+.kotak h1 {
+  font-weight: bold;
+  font-family: arial;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  z-index: 9999px;
+  color: white;
+  padding: 45px;
+  border: 1px solid white;
+  border-radius: 1rem 001rem;
+  margin: 10px;
+  background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.copyright {
+  height: 100%;
+  position: relative;
+  top: 70px;
+  margin: none;
+}
+
+.copyright .cpr h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: -40px;
+  font-family: Verdana;
+  padding-top: 25px;
+}
+
+.copyright .pjsn h1 {
+  font-size: 20px;
+  position: relative;
+  top: -110px;
+  padding: 30px;
+ padding-left: 10px;
+}
+
+.copyright .tentang a {
+  position: relative;
+  top: -100px;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+}

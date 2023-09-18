@@ -1,0 +1,439 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@media (max-width: 1440px){
+
+/* style */
+
+@font-face {
+  font-family: "kausan";
+  src: url(KaushanScript-Regular.otf) 
+  format(truetype);
+}
+
+.parent {
+  position: relative;
+  background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+}
+
+.nama {
+  font-family: kausan,arial;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  font-size: 40px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  text-shadow: 15px 15px 20px black,
+  15px 15px 20px black,
+  10px 0px 20px white;
+}
+
+.atas {
+    background-image: url(background.png);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    height: 250px;
+    border-bottom: 2px solid rgb(230, 198, 198);
+    border-top: 2px solid rgb(230, 198, 198);
+}
+
+.img  img{
+    width: 280px;
+    height: 280px;
+    border: 2px solid rgb(230, 198, 198);
+    border-radius: 50%;
+    position: relative;
+    bottom: 180px;
+    left: 80px;
+}
+
+.link {
+  position: relative;
+  bottom: 280px;
+  margin-left: 370px;
+}
+
+.link a {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: white;
+  transition: 0.8s;
+}
+
+.link a:hover {
+  color: white;
+  background-color: black;
+}
+
+.garis {
+  color: white;
+  display: inline;
+}
+
+.pj h1 {
+  font-weight: bold;
+  color: white;
+  font-family: Arial;
+  font-size: 80px;
+  margin-left: 420px;
+  position: relative;
+  right: 20px;
+  bottom: 150px;
+  text-shadow: 15px 15px 20px black,
+  15px 15px 20px black,
+  10px 0px 20px white;
+}
+
+.clr {
+  color: #1f1f1f;
+  text-shadow: -5px -5px 15px white,
+  8px 8px 15px grey;
+  font-family: kausan;
+  padding-right: 20px;
+}
+
+.pjla p {
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 220px;
+  margin-bottom: 100px;
+  text-shadow: -25px -12px 20px black;
+}
+
+.sidebar {
+  background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+  border-top: 2px solid rgb(230, 198, 198);
+  padding: 10px;
+}
+
+.sidebar a {
+width: 60px;
+height: 100%;
+background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+padding: 20px;
+padding-right: 65px;
+box-sizing: border-box;
+color: #fff; overflow: hidden;
+border-radius: 1rem 001rem;
+transition: width .75s ease;
+text-decoration: none;
+display: inline-block;
+border: 2px solid white;
+margin-left: 15px;
+margin-bottom: -55px;
+}
+
+.sidebar a:hover{
+width: 150px;
+}
+
+.pjla .text2 p {
+  text-align: right;
+  position: relative;
+  left: 165px;
+}
+
+.copyright {
+   background-color: #1f1f1f;
+   padding-top: 180px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   border-top: 2px dashed rgb(230, 198, 198);
+}
+
+.copyright .cpr h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  top: -60px;
+  font-family: Verdana;
+}
+
+.copyright .tentang a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: -130px;
+  padding: 15px;
+  margin-left: 110px;
+  font-size: 30px;
+  transition: .8s ease;
+}
+
+.copyright .tentang a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.copyright .pjsn h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  position: relative;
+  top: -130px;
+  padding: 30px;
+ padding-left: 30px;
+}
+}
+
+@media (min-width: 360px){
+    /* style sidebar */
+  .sidebar {
+  background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+  border-top: 1px solid rgb(230, 198, 198);
+  padding: 5px;
+}
+
+.sidebar a {
+width: 10px;
+height: 40px;
+background-image: linear-gradient(
+    45deg,#400040,#800080);
+    background-repeat: no-repeat;
+padding: 13px;
+padding-right: 60px;
+box-sizing: border-box;
+color: #fff; overflow: hidden;
+border-radius: 1rem 001rem;
+transition: width .75s ease;
+text-decoration: none;
+display: inline-block;
+border: 1px solid white;
+margin-left: 5px;
+margin-bottom: -32px;
+font-size: 14px;
+}
+
+.sidebar a:hover{
+width: 100px;
+}
+
+    /*style atas*/
+
+.nama {
+  font-family: kausan,arial;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  font-size: 16px;
+  padding-right: 8px;
+  text-shadow: 15px 15px 20px black,
+  15px 15px 20px black,
+  10px 0px 20px white;
+}
+  
+  .atas {
+    background-image: url(background.png);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    height: 150px;
+    border-bottom: 1px solid rgb(230, 198, 198);
+    border-top: 1px solid rgb(230, 198, 198);
+}
+
+.img  img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(230, 198, 198);
+    border-radius: 50%;
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+}
+
+  .link {
+  position: relative;
+  bottom: 150px;
+  margin-left: 170px;
+}
+
+.link a {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: white;
+  transition: 0.8s;
+  font-size: 10px;
+}
+
+.link a:hover {
+  color: white;
+  background-color: black;
+}
+
+.garis {
+  color: white;
+  display: inline;
+}
+
+    /*style isi*/
+  
+  .pj h1 {
+  font-weight: bold;
+  color: white;
+  font-family: Arial;
+  font-size: 32px;
+  margin-left: 182px;
+  position: relative;
+  right: 20px;
+  bottom: 100px;
+  text-shadow: 15px 15px 20px black,
+  15px 15px 20px black,
+  10px 0px 20px white;
+}
+
+.clr {
+  color: #1f1f1f;
+  text-shadow: -5px -5px 15px white,
+  8px 8px 15px grey;
+  font-family: kausan;
+  padding-right: 5px;
+}
+  
+  .pjla p {
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 120px;
+  margin-bottom: 70px;
+  text-shadow: -25px -12px 20px black;
+  margin-top: -50px;
+}
+
+  .pjla .text2 p {
+  text-align: right;
+  position: relative;
+  left: 95px;
+}
+  
+  /*copyright*/
+  
+  .copyright {
+   background-color: #1f1f1f;
+   padding-top: 60px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   border-top: 2px dashed rgb(230, 198, 198);
+}
+
+.copyright .cpr h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  font-family: Verdana;
+}
+
+.copyright .tentang a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: -50px;
+  padding: 10px;
+  margin-left: 35px;
+  font-size: 14px;
+  transition: .8s ease;
+  font-family: arial,verdana;
+}
+
+.copyright .tentang a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.copyright .pjsn h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: -50px;
+  padding: 20px;
+ padding-left: 10px;
+}
+  
+}
