@@ -118,6 +118,14 @@ width: 130px;
     padding-right: 65px;
 }
 
+@media screen and (min-width: 440px){
+      .container {
+  display: flex;
+  justify-content: center;
+  margin-right: 40%;
+}
+    }
+
 .Klk1 img {
   width: 155px;
   height: 155px;
@@ -131,9 +139,7 @@ width: 130px;
 }
 
 .Klk1 img:hover {
-  width: 170px;
-  height: 170px;
-  border-radius: none;
+  border-radius: 0rem 000rem;
   box-shadow: 5px 20px 50px black;
 }
 
@@ -150,9 +156,7 @@ width: 130px;
 }
 
 .Klk2 img:hover {
-  width: 170px;
-  height: 170px;
-  border-radius: none;
+  border-radius: 0rem 000rem;
   box-shadow: 5px 20px 50px black;
 }
 
@@ -169,9 +173,7 @@ width: 130px;
 }
 
 .Klk3 img:hover {
-  width: 170px;
-  height: 170px;
-  border-radius: none;
+  border-radius: 0rem 000rem;
   box-shadow: 5px 20px 50px black;
 }
 
@@ -188,9 +190,7 @@ width: 130px;
 }
 
 .Klk4 img:hover {
-  width: 170px;
-  height: 170px;
-  border-radius: none;
+  border-radius: 0rem 000rem;
   box-shadow: 5px 20px 50px black;
 }
 
@@ -207,9 +207,7 @@ width: 130px;
 }
 
 .Klk5 img:hover {
-  width: 170px;
-  height: 170px;
-  border-radius: none;
+  border-radius: 0rem 000rem;
   box-shadow: 5px 20px 50px black;
 }
 
