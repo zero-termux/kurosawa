@@ -118,7 +118,7 @@ width: 130px;
     padding-right: 65px;
 }
 
-@media screen and (min-width: 440px){
+@media screen and (min-width: 600px){
       .container {
   display: flex;
   justify-content: center;
