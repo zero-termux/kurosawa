@@ -48,7 +48,6 @@ table {
 }
 
 @media (max-width: 1440px){
-
 /* style */
 
 @font-face {
@@ -75,7 +74,7 @@ body {
   color: white;
   font-weight: bold;
   text-align: right;
-  font-size: 40px;
+  font-size: 22px;
   padding-right: 20px;
   margin-bottom: 20px;
   text-shadow: 15px 15px 20px black,
@@ -122,7 +121,7 @@ body {
 
 .link a:hover {
   color: white;
-  background-color: black;
+  opacity: .5;
 }
 
 .garis {
@@ -191,7 +190,7 @@ margin-bottom: -55px;
 }
 
 .sidebar a:hover{
-width: 150px;
+width: 85px;
 }
 
 .pjla .text2 p {
@@ -246,7 +245,6 @@ width: 150px;
   padding: 30px;
  padding-left: 30px;
 }
-}
 
 @media (min-width: 360px){
     /* style sidebar */
@@ -279,7 +277,7 @@ font-size: 14px;
 }
 
 .sidebar a:hover{
-width: 100px;
+width: 85px;
 }
 
     /*style atas*/
@@ -290,7 +288,7 @@ width: 100px;
   font-weight: bold;
   text-align: right;
   font-size: 14px;
-  padding-right: 5px;
+  padding-right: 8px;
   text-shadow: 15px 15px 20px black,
   15px 15px 20px black,
   10px 0px 20px white;
@@ -336,7 +334,7 @@ width: 100px;
 
 .link a:hover {
   color: white;
-  background-color: black;
+  opacity: .5;
 }
 
 .garis {
